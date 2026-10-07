@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arapça Öğren</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f7f6;
+      color: #222;
+    }
+
+    header {
+      background: #176b5b;
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 36px;
+    }
+
+    header p {
+      font-size: 18px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 25px;
+    }
+
+    .section {
+      background: white;
+      margin-bottom: 20px;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    .levels {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    button {
+      background: #176b5b;
+      color: white;
+      border: none;
+      padding: 12px 20px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    button:hover {
+      background: #0f5145;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #666;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>العربية</h1>
+  <h2>Arapça Öğrenme Platformu</h2>
+  <p>Yapay zekâ destekli Arapça öğrenme ve konuşma uygulaması</p>
+</header>
+
+<div class="container">
+
+  <div class="section">
+    <h2>📚 Seviyeni Seç</h2>
+
+    <div class="levels">
+      <button>A1</button>
+      <button>A2</button>
+      <button>B1</button>
+      <button>B2</button>
+      <button>C1</button>
+      <button>C2</button>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>🤖 AI Konuşma Pratiği</h2>
+    <p>Yapay zekâ ile Arapça konuşma pratiği yap.</p>
+    <button>Konuşmaya Başla</button>
+  </div>
+
+  <div class="section">
+    <h2>📝 Kelime Öğren</h2>
+    <p>Seviyene uygun Arapça kelimeler öğren ve tekrar et.</p>
+    <button>Kelimelere Git</button>
+  </div>
+
+  <div class="section">
+    <h2>🎯 YDS / YÖKDİL</h2>
+    <p>Arapça YDS ve YÖKDİL sınavlarına yönelik kelime, gramer ve soru pratiği.</p>
+    <button>Çalışmaya Başla</button>
+  </div>
+
+  <div class="section">
+    <h2>📖 Harf-i Cerli Fiiller</h2>
+    <p>Arapçada fiillerin hangi harf-i cerlerle kullanıldığını öğren.</p>
+    <button>Fiilleri Öğren</button>
+  </div>
+
+</div>
+
+<footer>
+  <p>© 2026 Arapça Öğrenme Platformu</p>
+</footer>
+
+</body>
+</html>
